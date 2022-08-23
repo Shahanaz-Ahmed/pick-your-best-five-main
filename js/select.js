@@ -1,9 +1,6 @@
 const playerArray = [];
 
 function display(selectedPlayerName) {
-  const totalPlayers = document.getElementById("total-players");
-  totalPlayers.innerText = playerArray.length;
-
   const selectedBody = document.getElementById("selected-players");
   selectedBody.innerHTML = "";
 
