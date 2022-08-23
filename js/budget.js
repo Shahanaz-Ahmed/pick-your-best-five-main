@@ -1,4 +1,5 @@
 document.getElementById("calculate-btn").addEventListener("click", function () {
+  // Expense per player
   const expencePerPlayer = document.getElementById("expense-calculation");
   const expenseAmountString = expencePerPlayer.value;
   const expenseAmount = parseFloat(expenseAmountString);
@@ -7,6 +8,7 @@ document.getElementById("calculate-btn").addEventListener("click", function () {
 
   totalExpense.innerText = expenseAmount;
 
+  //per player * 5
   const totalExpensePlayer = expenseAmount * 5;
   totalExpense.innerText = totalExpensePlayer;
 
