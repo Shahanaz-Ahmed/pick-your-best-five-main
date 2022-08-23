@@ -14,11 +14,12 @@ document.getElementById("calculate-btn").addEventListener("click", function () {
 
   expencePerPlayer.value = "";
 
+  //managercost
   document.getElementById("btn-total").addEventListener("click", function () {
     const managerCost = document.getElementById("manager-cost");
     const costManagerString = managerCost.value;
     const costOfManager = parseFloat(costManagerString);
-
+    //coach
     const coachCost = document.getElementById("coach-cost");
     const costCoachString = coachCost.value;
     const costOfCoach = parseInt(costCoachString);
