@@ -25,6 +25,7 @@ document.getElementById("calculate-btn").addEventListener("click", function () {
 
     const totalAmount = document.getElementById("total-cost");
 
+    //total expence = manager + coach + player expence
     const totalCost = costOfManager + costOfCoach + totalExpensePlayer;
     totalAmount.innerText = totalCost;
     managerCost.value = "";
