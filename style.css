@@ -1,0 +1,14 @@
+main,footer{
+    background-color:  #201f1f;
+}
+.header-h1{
+    margin-left: 200px;
+    color: #FF5E19;
+    font-family: 'Berkshire Swash', cursive;
+}
+.header-p{
+    width: 70%;
+}
+.footer{
+    height: 200px;
+}
